@@ -61,9 +61,9 @@ function getCurrentPosition(event) {
 
 function convertToFahrenheit(event) {
   event.preventDefault();
-  let fahrenheitTemperature = (14 * 9) / 5 + 32;
+
   let temperatureElement = document.querySelector("#temperature");
-  temperatureElement.innerHTML = fahrenheitTemperature;
+  temperatureElement.innerHTML = 57;
 }
 
 function convertToCelsius(event) {
@@ -75,11 +75,6 @@ function convertToCelsius(event) {
 let dateElement = document.querySelector("#date");
 let currentTime = new Date();
 dateElement.innerHTML = formatDate(currentTime);
-let iconElement = document.querySelector("#icon");
-iconElement.getAttribute(
-  "#src",
-  `https://openweathermap.org/img/wn/10d@2x.png`
-);
 
 let searchForm = document.querySelector("#search-form");
 searchForm.addEventListener("submit", handleSubmit);

@@ -22,7 +22,7 @@ li {
 }
 .weather-app-wrapper {
   max-width: 600px;
-  margin: 30px auto;
+  margin: 20px auto;
 }
 .weather-app {
   max-width: 600px;
@@ -31,7 +31,8 @@ li {
   border: 1px solid #dadde1;
   border-radius: 5px;
 }
-.temperature strong {
+
+.Weather-app-temp {
   font-size: 60px;
   line-height: 1;
   font-weight: 400;
